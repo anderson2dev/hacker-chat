@@ -1,8 +1,8 @@
 import ComponentsBuilder from './ComponentsBuilder.js';
-import {comunicationStatus} from './utils/ComunicationProtocol.js';
-import {userStatus} from './utils/UserStatus.js';
+import { comunicationStatus } from './utils/ComunicationProtocol.js';
 export default class TerminalController {
   #userColors = new Map();
+
 
   constructor() {
 
